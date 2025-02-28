@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猜猜GYH的老公</title>
+  <script>
+    function checkAnswer(answer) {
+      if (answer === "沈星回" || answer === "夏以昼") {
+        alert("对啦！");
+      } else {
+        alert("这不是我老公！");
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <h1>谁是GYH的老公？</h1>
+  <form>
+    <input type="radio" id="沈星回" name="husband" value="沈星回" onclick="checkAnswer('沈星回')">
+    <label for="沈星回">沈星回</label><br>
+    <input type="radio" id="黎深" name="husband" value="黎深" onclick="checkAnswer('黎深')">
+    <label for="黎深">黎深</label><br>
+    <input type="radio" id="祁煜" name="husband" value="祁煜" onclick="checkAnswer('祁煜')">
+    <label for="祁煜">祁煜</label><br>
+    <input type="radio" id="秦彻" name="husband" value="秦彻" onclick="checkAnswer('秦彻')">
+    <label for="秦彻">秦彻</label><br>
+    <input type="radio" id="夏以昼" name="husband" value="夏以昼" onclick="checkAnswer('夏以昼')">
+    <label for="夏以昼">夏以昼</label><br>
+  </form>
+</body>
+
+</html>
